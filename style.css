@@ -6,7 +6,7 @@ body {
     display: flex;
     list-style: none;
     justify-content: end;
-    padding-right: 100px;
+    padding-right: 200px;
     padding-top: 50px;
 }
 
@@ -14,12 +14,13 @@ body {
     padding: 2em;
     text-decoration: none;
     font-size: 18px;
+    color: black;
 
 }
 
 .texto-logo {
     position: absolute;
-    padding-left: 100px;
+    padding-left: 200px;
     margin-top: -40px;
     font-size: 20px;
     font-weight: bold;
@@ -29,4 +30,48 @@ body {
     position: absolute;
     padding-left: 1200px;
     padding-top: 50px;
+}
+
+.textos {
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.texto-um {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.botao {
+    background-color: #8EADD5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 167px;
+}
+
+.texto-section-dois {
+    text-align: center;
+    padding-top: 700px;
+}
+
+.section-dois {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icones {
+    padding: 1em;
+    background-color: #F6F6F6;
+    width: 200px;
+    text-align: center;
+}
+
+.fundo {
+    position: absolute;
+    top: 0%;
+    left: 0;
 }
