@@ -19,7 +19,6 @@ body {
 }
 
 .texto-logo {
-    position: absolute;
     padding-left: 200px;
     margin-top: -40px;
     font-size: 20px;
@@ -74,4 +73,59 @@ body {
     position: absolute;
     top: 0%;
     left: 0;
+}
+
+@media screen and  (max-device-width: 700px) {
+
+    .icone-menu {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .texto-logo {
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .fundo {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        
+    }
+
+    .menu-lista {
+        display: none;
+    }
+
+    .menu-item {
+        display: inline-block;
+    }
+
+    .menu-lista {
+        display: inline-block;
+        list-style: none;
+        padding-right: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .menu-item {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    
+    }
+
+    .foto-principal {
+        position: absolute;
+        padding-left: 0;
+        padding-top: 50px;
+    }
 }
