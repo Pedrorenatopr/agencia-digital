@@ -19,10 +19,11 @@ body {
 }
 
 .texto-logo {
+    position: absolute;
     padding-left: 200px;
-    margin-top: -40px;
     font-size: 20px;
     font-weight: bold;
+    padding-top: 30px;
 }
 
 .foto-principal {
@@ -42,6 +43,12 @@ body {
     font-weight: bold;
 }
 
+.botao-teste {
+    padding-left: 200px;
+    padding-top: 400px;
+
+}
+
 .botao {
     background-color: #8EADD5;
     color: white;
@@ -53,7 +60,7 @@ body {
 
 .texto-section-dois {
     text-align: center;
-    padding-top: 700px;
+    padding-top: 250px;
 }
 
 .section-dois {
@@ -75,6 +82,10 @@ body {
     left: 0;
 }
 
+.icone-menu {
+    display: none;
+}
+
 @media screen and  (max-device-width: 700px) {
 
     .icone-menu {
@@ -83,12 +94,13 @@ body {
     }
     
     .texto-logo {
-        position: absolute;
+        padding-left: 0;
+        margin-top: 0;
         font-size: 20px;
         font-weight: bold;
-        text-align: left;
-        padding-left: 10px;
-        padding-top: 10px;
+        text-align: start;
+        position: absolute;
+        padding-top: 0;
     }
 
     .fundo {
@@ -96,7 +108,6 @@ body {
     }
 
     .logo {
-        display: flex;
         
     }
 
@@ -144,9 +155,9 @@ body {
     }
 
     .texto-um {
-        font-size: 18px;
-        width: 100%;
+        font-size: 40px;
         text-align: center;
+        width: 100%;
     }
 
     p {
@@ -168,6 +179,15 @@ body {
         padding-top: 180px;
         display: flex;
         justify-content: center;
+        padding-left: 0;
+    }
+
+    .imagens {
+        width: 50px;
+    }
+
+    .texto-section-dois {
+        padding-top: 400px;
     }
     
 }
