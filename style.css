@@ -109,7 +109,7 @@ body {
     }
 
     .menu-lista {
-        display: inline-block;
+        display: none;
         list-style: none;
         padding-right: 0;
         padding-top: 0;
@@ -117,15 +117,57 @@ body {
     }
 
     .menu-item {
+        display: inline-block;
         text-decoration: none;
         font-size: 18px;
         color: black;
     
     }
 
+    .section-principal {
+        display: flex;
+        justify-content: center;
+    }
+
     .foto-principal {
+        padding-left: 0;
+        padding-top: 250px;
+        width: 300px;
+        align-items: center;
+    }
+
+    .textos {
         position: absolute;
         padding-left: 0;
-        padding-top: 50px;
+        padding-top: 0;
+        padding-top: 20px;
     }
+
+    .texto-um {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .botao {
+        align-items: center;
+        text-align: center;
+        background-color: #8EADD5;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        width: 150px;
+    }
+
+    .botao-teste {
+        padding-top: 180px;
+        display: flex;
+        justify-content: center;
+    }
+    
 }
