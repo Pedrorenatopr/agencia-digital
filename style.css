@@ -126,6 +126,36 @@ body {
     padding-left: 1000px;
 }
 
+.section-cinco {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.legenda-cinco {
+    font-size: 48px;
+}
+
+.bio {
+    font-size: 12px;
+    color: gray;
+}
+
+.card-cinco {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cartao-cinco {
+    padding: 1em;
+}
+
+.cartao-itens {
+    background-color: #F6F6F6;
+    padding: 2em;
+    border-radius: 15px;
+}
+
 @media screen and  (max-device-width: 700px) {
 
     .icone-menu {
