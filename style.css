@@ -302,5 +302,10 @@ body {
         padding-left: 0;
     }
     
+    .card-cinco {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
     
 }
