@@ -156,6 +156,42 @@ body {
     border-radius: 15px;
 }
 
+.section-seis {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.titulo-seis {
+    font-size: 48px;
+}
+
+.texto-seis {
+    padding-left: 600px;
+    margin-top: -400px;
+}
+
+.legenda-seis {
+    color: gray;
+    line-height: 1.5em;
+}
+
+.card-seis {
+    padding-left: 200px;
+    background-color: #F6F6F6;
+    height: 450px;
+    border-radius: 15px;
+    width: 1300px;
+
+}
+
+.botao-seis {
+    padding: 15px;
+    color: white;
+    background-color: #8EADD5;
+    border: none;
+    border-radius: 10px;
+}
+
 @media screen and  (max-device-width: 700px) {
 
     .icone-menu {
