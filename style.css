@@ -192,6 +192,53 @@ body {
     border-radius: 10px;
 }
 
+
+.texto-footer {
+    padding-left: 200px;
+}
+
+.logo-footer {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.legenda-footer {
+    color: gray;
+    line-height: 1.5em;
+}
+
+.footer {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.lista-footer {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    list-style: none;
+    padding-left: 600px;
+    margin-top: -100px;
+}
+
+.titulo-footer {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.teste-footer {
+    color: gray;
+}
+
+.footer-itens {
+    color: #8EADD5;
+}
+
+.copy {
+    padding-top: 100px;
+    text-align: center;
+    color: gray;
+}
+
 @media screen and  (max-device-width: 700px) {
 
     .icone-menu {
