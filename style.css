@@ -343,5 +343,41 @@ body {
         justify-content: center;
         text-align: center;
     }
+
+    .foto-seis {
+        display: none;
+    }
+
+    .section-seis {
+        padding-top: 50px;
+        padding-left: 0;
+    }
+    
+    .titulo-seis {
+        font-size: 38px;
+        padding-top: 40px;
+    }
+    
+    .texto-seis {
+        padding-left: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .legenda-seis {
+        color: gray;
+        line-height: 1.5em;
+    }
+    
+    .card-seis {
+        padding-left: 0;
+        background-color: #F6F6F6;
+        height: 300px;
+        border-radius: 15px;
+        width: 100%;
+    
+    }
+    
+
     
 }
