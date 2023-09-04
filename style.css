@@ -92,7 +92,7 @@ body {
 }
 
 .texto-tres {
-    margin-top: -450px;
+    margin-top: -350px;
     padding-left: 1000px;
 }
 
@@ -110,6 +110,20 @@ body {
 
 .seta-dois {
     display: none;
+}
+
+.titulo-quarto {
+    font-size: 48px;
+}
+
+.section-quatro {
+    padding-top: 150px;
+    padding-left: 400px;
+}
+
+.foto-quatro {
+    margin-top: -350px;
+    padding-left: 1000px;
 }
 
 @media screen and  (max-device-width: 700px) {
